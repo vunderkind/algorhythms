@@ -7,18 +7,20 @@ As the question explains, we have a 6 x 6 array (a 2-dimensional array). Our job
 
 Take this for an example. Let's call the below array `arr`:
  
- 1 2 3 4 5 6
- 6 5 4 3 2 1
- 2 3 4 5 2 1
- 4 3 5 6 2 4
- 7 8 6 4 2 1
- 5 6 7 8 9 9
+ arr = [
+       [1, 2, 3, 4, 5, 6],
+       [6, 5, 4, 3, 2, 1],
+       [2, 3, 4, 5, 2, 1],
+       [4, 3, 5, 6, 2, 4],
+       [7, 8, 6, 4, 2, 1],
+       [5, 6, 7, 8, 9, 9]
+    ]
 
 An example of a hourglass from arr[0][0] will be: 
 
-1 2 3
-  5  
-2 3 4
+[1, 2, 3],
+   [5],
+[2, 3, 4]
 
 And the total value of that hourglass will be: 1 + 2 + 3 + 5 + 2 + 3 + 4 = `20`. 
 
